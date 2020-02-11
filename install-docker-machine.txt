@@ -1,0 +1,12 @@
+### Download the suitable version of the “docker-machine” from github and save in ~ path
+
+curl -L https://github.com/docker/machine/releases/download/v0.13.0/docker-machine-`uname -s`-`uname -m` -o ~/docker-machine 
+
+## Make it executable
+
+cd ~ && chmod +x docker-machine 
+
+## Copy it to any of the folders which are listed in PATH variable
+
+sudo cp ~/docker-machine /usr/local/bin/docker-machine 
+
